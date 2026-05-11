@@ -1,0 +1,36 @@
+{
+  "info": {
+    "assignment": "task-based",
+    "protocol": "DA",
+    "instructions": "<ul><li>Score each translation using the slider based on meaning preservation and quality. <strong>Important:</strong> The relative order of scores matters; ensure better translations have higher scores than worse ones.<ul><li>0: <strong>Broken</strong>/Nonsense</li><li>33%: <strong>Flawed</strong>: substantial issues.</li><li>66%: <strong>Good</strong>: small issues with grammar, fluency, or consistency.</li><li>100%: <strong>Perfect</strong>: meaning and style align completely with the source.</li></ul></li></ul>",
+    "sliders": [
+      {"name": "Fluency", "min": 0, "max": 100, "step": 1},
+      {"name": "Adequacy", "min": 0, "max": 100, "step": 1}
+    ]
+  },
+  "campaign_id": "tutorial_sliders",
+  "data": [
+    [
+      [
+        {
+          "item_id": "tut_1_1",
+          "src": "I love cats.",
+          "tgt": {
+            "ModelA": "Ich liebe Katzen.",
+            "ModelB": "Ich haben Liebe Katzen rot."
+          }
+        }
+      ],
+      [
+        {
+          "item_id": "tut_1_2",
+          "src": "The dog runs quickly.",
+          "tgt": {
+            "ModelA": "Der Hund läuft schnell.",
+            "ModelB": "Das Hund läuft schnell grün."
+          }
+        }
+      ]
+    ]
+  ]
+}

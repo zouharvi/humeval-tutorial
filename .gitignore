@@ -209,6 +209,12 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Pearmut runtime (keep data/assets/)
+data/tasks/
+data/outputs/
+data/progress.json
+data/.lock
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

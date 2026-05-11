@@ -1,0 +1,36 @@
+{
+  "info": {
+    "assignment": "task-based",
+    "protocol": "DA",
+    "instructions": "YOUR INSTRUCTIONS HERE",
+    "sliders": [
+      {"name": "Fluency", "min": 0, "max": 100, "step": 1},
+      {"name": "Adequacy", "min": 0, "max": 100, "step": 1}
+    ]
+  },
+  "campaign_id": "my_campaign",
+  "data": [
+    [
+      [
+        {
+          "item_id": "item_1",
+          "src": "YOUR SOURCE TEXT HERE",
+          "tgt": {
+            "ModelA": "YOUR FIRST TRANSLATION HERE",
+            "ModelB": "YOUR SECOND TRANSLATION HERE"
+          }
+        }
+      ],
+      [
+        {
+          "item_id": "item_2",
+          "src": "YOUR SECOND SOURCE TEXT HERE",
+          "tgt": {
+            "ModelA": "YOUR FIRST TRANSLATION HERE",
+            "ModelB": "YOUR SECOND TRANSLATION HERE"
+          }
+        }
+      ]
+    ]
+  ]
+}

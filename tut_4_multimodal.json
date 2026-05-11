@@ -1,0 +1,56 @@
+{
+  "info": {
+    "assignment": "task-based",
+    "protocol": "ESA",
+    "instructions": "<ul><li>Error spans:<ul><li><strong>Click</strong> on the start of an error, then <strong>click</strong> on the end to mark an error span.</li><li><strong>Hover</strong> over an existing highlight to change error severity (minor/major) or remove it.</li></ul>Error severity:<ul><li><span class=\"error_minor\">Minor:</span> Style, grammar, or word choice could be better.</li><li><span class=\"error_major\">Major:</span> Meaning is significantly changed or is hard to understand.</li></ul><strong>Tip</strong>: Mark the general area of the error. Use separate highlights for different errors.</li><li>Score each translation using the slider based on meaning preservation and quality. <strong>Important:</strong> The relative order of scores matters; ensure better translations have higher scores than worse ones.<ul><li>0: <strong>Broken</strong>/Nonsense</li><li>33%: <strong>Flawed</strong>: substantial issues.</li><li>66%: <strong>Good</strong>: small issues with grammar, fluency, or consistency.</li><li>100%: <strong>Perfect</strong>: meaning and style align completely with the source.</li></ul></li></ul>"
+  },
+  "campaign_id": "tutorial_multimodal",
+  "data": [
+    [
+      [
+        {
+          "item_id": "tut_4_bug_ladybug",
+          "instructions": "Look at the image. Given the visual context, evaluate the German translation of the English source.",
+          "src": "<img src=\"/assets/media/ladybug.jpg\" width=\"400\" style=\"display:block;margin-bottom:0.5em\"/><br><b>I love bugs.</b>",
+          "tgt": {
+            "ModelA": "Ich liebe Käfer.",
+            "ModelB": "Ich liebe Computerfehler."
+          }
+        }
+      ],
+      [
+        {
+          "item_id": "tut_4_bug_computer",
+          "instructions": "Look at the image. Given the visual context, evaluate the German translation of the English source.",
+          "src": "<img src=\"/assets/media/error-bug-1256.jpg\" width=\"400\" style=\"display:block;margin-bottom:0.5em\"/><br><b>I love bugs.</b>",
+          "tgt": {
+            "ModelA": "Ich liebe Computerfehler.",
+            "ModelB": "Ich liebe Käfer."
+          }
+        }
+      ],
+      [
+        {
+          "item_id": "tut_4_audio_1",
+          "instructions": "Listen to the audio and evaluate the German translation.",
+          "src": "<audio controls src=\"/assets/media/sent_2.wav\"></audio>",
+          "tgt": {
+            "ModelA": "Ich bin Allan vom ByteDance AI Lab, und dies ist eine gemeinsame Arbeit mit Jierui Li von der University of Texas in Austin und Wei Lu von der SUTD.",
+            "ModelB": "Ich bin Alan vom ByteDance AI Labor, und das ist eine Zusammenarbeit mit Jierui Li von die Universität Texas Austin und Wei Lu von SUTD."
+          }
+        }
+      ],
+      [
+        {
+          "item_id": "tut_4_audio_2",
+          "instructions": "Listen to the audio and evaluate the German translation.",
+          "src": "<audio controls src=\"/assets/media/sent_5.wav\"></audio>",
+          "tgt": {
+            "ModelA": "Diese Abbildung stammt aus dem PaLM-Paper, in dem Prompting eingesetzt wird, um das Netzwerkproblem im Few-Shot-Learning-Szenario zu lösen.",
+            "ModelB": "Diese Figur ist genommen vom PaLM Papier wo sie Prompting machen um das Netzwerk-Problem zu lösen in dem Wenig-Schuss-Lernen Szenario."
+          }
+        }
+      ]
+    ]
+  ]
+}
