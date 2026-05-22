@@ -55,6 +55,23 @@ pearmut add tut_4_multimodal.json
 pearmut run
 ```
 
+## Step 5 — Scaling up
+
+Three configs with the same 4 items, showing different distribution strategies:
+
+**5a — one annotator gets everything** (`tut_5a_one_annotator.json`): task-based with 1 user.
+
+**5b — items split across annotators** (`tut_5b_four_annotators.json`): task-based with 4 users, each gets 1 item.
+
+**5c — automatic distribution** (`tut_5c_single_stream.json`): single-stream with 4 users and `docs_per_user: 2`. Items are drawn randomly from a shared pool — each item is annotated once, then skipped for everyone else.
+
+```bash
+pearmut add tut_5a_one_annotator.json
+pearmut add tut_5b_four_annotators.json
+pearmut add tut_5c_single_stream.json
+pearmut run
+```
+
 ## Notes
 
 - Run all `pearmut` commands from this folder.
