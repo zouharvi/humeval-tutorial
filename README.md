@@ -1,8 +1,23 @@
 # Human Evaluation Tutorial
 
-Tutorial materials for running your own human evaluation campaign with [Pearmut](https://github.com/zouharvi/pearmut).
+Tutorial materials for the human evaluation tutorial at EAMT 2026 and KONVENS 2026.
+
+## Slides
+
+Slides are written in Typst and can be compiled locally:
+```bash
+cd slides
+# TODO: add slides
+# note: requires IBM Plex font installed locally
+typst compile main_slides.typ
+```
+
+<!-- TODO: add compiled final version -->
+You can also look at the [compiled slides](humeval_tutorial_animated.pdf) or the [handout version without animations](humeval_tutorial_handout.pdf).
 
 ## Our own human evaluation campaign
+
+You can run your own human evaluation campaign with [Pearmut](https://github.com/zouharvi/pearmut).
 
 ```bash
 cd our_own_humeval
