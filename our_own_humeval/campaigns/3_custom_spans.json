@@ -1,14 +1,14 @@
 {
   "info": {
     "assignment": "task-based",
-    "protocol": "cESA",
+    "protocol": "MQM",
     "mqm_categories": {
       "General": ["Accuracy", "Fluency"],
       "Audio-specific": ["Inaudible", "Background noise", "Speaker overlap", "Misinterpretation"],
       "Style": ["Awkward", "Embarassing"],
       "Unknown": []
     },
-    "mqm_severities": ["Neutral", "Minor", "Major", "Critical", "Hypercritical"]
+    "mqm_severities": ["Neutral", "Minor", "Major", "Critical"]
   },
   "campaign_id": "tutorial_custom_spans",
   "data": [
