@@ -4,13 +4,11 @@
     "protocol": "ESA",
     "instructions": "<ul><li>Error spans:<ul><li><strong>Click</strong> on the start of an error, then <strong>click</strong> on the end to mark an error span.</li><li><strong>Hover</strong> over an existing highlight to change error severity (minor/major) or remove it.</li></ul></li><li>Score each translation using the slider based on meaning preservation and quality.<ul><li>0: <strong>Broken</strong>/Nonsense</li><li>33%: <strong>Flawed</strong>: substantial issues.</li><li>66%: <strong>Good</strong>: small issues.</li><li>100%: <strong>Perfect</strong>.</li></ul></li></ul>"
   },
-  "campaign_id": "tutorial_5a_one_annotator",
+  "campaign_id": "tutorial_6b_four_annotators",
   "data": [
-    [
-      [{"item_id": "tut_5_1", "src": "I love cats.", "tgt": {"ModelA": "Ich liebe Katzen.", "ModelB": "Ich haben Liebe Katzen rot."}}],
-      [{"item_id": "tut_5_2", "src": "The dog runs quickly.", "tgt": {"ModelA": "Der Hund läuft schnell.", "ModelB": "Das Hund läuft schnell grün."}}],
-      [{"item_id": "tut_5_3", "src": "She reads a book.", "tgt": {"ModelA": "Sie liest ein Buch.", "ModelB": "Sie lesen Buch ein."}}],
-      [{"item_id": "tut_5_4", "src": "The sun shines brightly.", "tgt": {"ModelA": "Die Sonne scheint hell.", "ModelB": "Das Sonne scheint blau hell."}}]
-    ]
+    [[{"item_id": "tut_6_1", "src": "I love cats.", "tgt": {"ModelA": "Ich liebe Katzen.", "ModelB": "Ich haben Liebe Katzen rot."}}]],
+    [[{"item_id": "tut_6_2", "src": "The dog runs quickly.", "tgt": {"ModelA": "Der Hund läuft schnell.", "ModelB": "Das Hund läuft schnell grün."}}]],
+    [[{"item_id": "tut_6_3", "src": "She reads a book.", "tgt": {"ModelA": "Sie liest ein Buch.", "ModelB": "Sie lesen Buch ein."}}]],
+    [[{"item_id": "tut_6_4", "src": "The sun shines brightly.", "tgt": {"ModelA": "Die Sonne scheint hell.", "ModelB": "Das Sonne scheint blau hell."}}]]
   ]
 }

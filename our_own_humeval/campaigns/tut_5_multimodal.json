@@ -13,7 +13,7 @@
     [
       [
         {
-          "item_id": "tut_4_bug_ladybug",
+          "item_id": "tut_5_bug_ladybug",
           "instructions": "Look at the image. Given the visual context, evaluate the German translation of the English source.",
           "src": "<img src=\"/assets/media/ladybug.jpg\" width=\"400\" style=\"display:block;margin-bottom:0.5em\"/><br><b>I love bugs.</b>",
           "tgt": {
@@ -24,7 +24,7 @@
       ],
       [
         {
-          "item_id": "tut_4_bug_computer",
+          "item_id": "tut_5_bug_computer",
           "instructions": "Look at the image. Given the visual context, evaluate the German translation of the English source.",
           "src": "<img src=\"/assets/media/error-bug-1256.jpg\" width=\"400\" style=\"display:block;margin-bottom:0.5em\"/><br><b>I love bugs.</b>",
           "tgt": {
@@ -35,7 +35,7 @@
       ],
       [
         {
-          "item_id": "tut_4_audio_1",
+          "item_id": "tut_5_audio_1",
           "instructions": "Listen to the audio and evaluate the German translation.",
           "src": "<audio controls src=\"/assets/media/sent_2.wav\"></audio>",
           "tgt": {
@@ -46,7 +46,7 @@
       ],
       [
         {
-          "item_id": "tut_4_audio_2",
+          "item_id": "tut_5_audio_2",
           "instructions": "Listen to the audio and evaluate the German translation.",
           "src": "<audio controls src=\"/assets/media/sent_5.wav\"></audio>",
           "tgt": {
