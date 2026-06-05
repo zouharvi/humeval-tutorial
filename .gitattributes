@@ -3,3 +3,4 @@
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+humeval_tutorial_*.pdf filter=lfs diff=lfs merge=lfs -text
