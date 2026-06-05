@@ -15,57 +15,59 @@ pip install pearmut
 
 ### Campaign 0 based on template
 
-`tut_0.json` is a starting point. Fill in your own source texts and translations, then run:
+`0a_da.json` is a starting point with simple direct assessment campaign.
+Fill in your own source texts and translations, then run:
 
 ```bash
-pearmut add tut_0.json
+pearmut add campaigns/0a_da.json
 pearmut run
 ```
-
 Open the dashboard link printed in the terminal to manage the campaign and access annotator URLs.
+
+The `0b_esa.json`, `0c_cesa.json`, and `0d_mqm.json` contain ESA, cESA, and MQM annotation protocol defaults.
 
 ### Campaign 1 based on custom sliders
 
-`tut_1_sliders.json`: text-based evaluation with two custom sliders (Fluency and Adequacy).
+`1_sliders.json`: text-based evaluation with two custom sliders (Fluency and Adequacy).
 
 ```bash
-pearmut add tut_1_sliders.json
+pearmut add campaigns/1_sliders.json
 pearmut run
 ```
 
 ### Campaign 2 with error spans
 
-`tut_2_spans.json`: annotators highlight error spans in the translation and set severity (minor/major), then rate overall quality.
+`2_spans.json`: annotators highlight error spans in the translation and set severity (minor/major), then rate overall quality.
 
 ```bash
-pearmut add tut_2_spans.json
+pearmut add campaigns/2_spans.json
 pearmut run
 ```
 
 ### Campaign 3 with custom error spans
 
-`tut_2_spans.json`: annotators highlight error spans in the translation and set custom taxonomy
+`2_spans.json`: annotators highlight error spans in the translation and set custom taxonomy
 
 ```bash
-pearmut add tut_3_custom_spans.json
+pearmut add campaigns/3_custom_spans.json
 pearmut run
 ```
 
 ### Campaign 4 with free-form text
 
-`tut_4_freetext.json`: same as Step 2, plus a free-text comment box.
+`4_freetext.json`: same as Step 2, plus a free-text comment box.
 
 ```bash
-pearmut add tut_4_freetext.json
+pearmut add campaigns/4_freetext.json
 pearmut run
 ```
 
 ### Campaign 5 goes multimodal
 
-`tut_5_multimodal.json`: image and audio inputs. Media files are in `assets/` and served based on the configuration in the JSON.
+`5_multimodal.json`: image and audio inputs. Media files are in `assets/` and served based on the configuration in the JSON.
 
 ```bash
-pearmut add tut_5_multimodal.json
+pearmut add campaigns/5_multimodal.json
 pearmut run
 ```
 
@@ -73,21 +75,21 @@ pearmut run
 
 Three configs with the same 4 items, showing different distribution strategies:
 
-- **6a: one annotator gets everything** (`tut_6a_one_annotator.json`): task-based with 1 user.
-- **6b: items split across annotators** (`tut_6b_four_annotators.json`): task-based with 4 users, each gets 1 item.
-- **6c: automatic distribution** (`tut_6c_single_stream.json`): single-stream with 4 users and `docs_per_user: 2`. Items are drawn randomly from a shared pool: each item is annotated once, then skipped for everyone else.
+- **6a: one annotator gets everything** (`6a_one_annotator.json`): task-based with 1 user.
+- **6b: items split across annotators** (`6b_four_annotators.json`): task-based with 4 users, each gets 1 item.
+- **6c: automatic distribution** (`6c_single_stream.json`): single-stream with 4 users and `docs_per_user: 2`. Items are drawn randomly from a shared pool: each item is annotated once, then skipped for everyone else.
 
 ```bash
-pearmut add tut_6a_one_annotator.json
-pearmut add tut_6b_four_annotators.json
-pearmut add tut_6c_single_stream.json
+pearmut add campaigns/6a_one_annotator.json
+pearmut add campaigns/6b_four_annotators.json
+pearmut add campaigns/6c_single_stream.json
 pearmut run
 ```
 
 ### Notes
 
 - Run all `pearmut` commands from `our_own_humeval/` folder
-- To overwrite a campaign after changes: `pearmut add tut_X.json -o`
+- To overwrite a campaign after changes: `pearmut add campaigns/X.json -o`
 - To reset all data: `pearmut purge`
 
 

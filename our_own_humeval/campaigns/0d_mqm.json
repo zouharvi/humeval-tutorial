@@ -1,0 +1,31 @@
+{
+  "info": {
+    "assignment": "task-based",
+    "protocol": "MQM"
+  },
+  "campaign_id": "my_campaign 0d",
+  "data": [
+    [
+      [
+        {
+          "item_id": "item_1",
+          "src": "YOUR SOURCE TEXT HERE",
+          "tgt": {
+            "ModelA": "YOUR FIRST TRANSLATION HERE",
+            "ModelB": "YOUR SECOND TRANSLATION HERE"
+          }
+        }
+      ],
+      [
+        {
+          "item_id": "item_2",
+          "src": "YOUR SECOND SOURCE TEXT HERE",
+          "tgt": {
+            "ModelA": "YOUR FIRST TRANSLATION HERE",
+            "ModelB": "YOUR SECOND TRANSLATION HERE"
+          }
+        }
+      ]
+    ]
+  ]
+}

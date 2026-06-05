@@ -1,14 +1,9 @@
 {
   "info": {
     "assignment": "task-based",
-    "protocol": "DA",
-    "instructions": "YOUR INSTRUCTIONS HERE",
-    "sliders": [
-      {"name": "Fluency", "min": 0, "max": 100, "step": 1},
-      {"name": "Adequacy", "min": 0, "max": 100, "step": 1}
-    ]
+    "protocol": "cESA"
   },
-  "campaign_id": "my_campaign",
+  "campaign_id": "my_campaign 0c",
   "data": [
     [
       [
