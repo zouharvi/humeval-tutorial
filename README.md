@@ -2,7 +2,7 @@
 
 <!-- at EAMT 2026 / KONVENS 2026 / MT Marathon 2026 -->
 Tutorial materials for the human evaluation tutorial by Vilém Zouhar, Maike Züfle, Patrícia Schmidtová.
-Look at the [slides](humeval_tutorial_animated.pdf) or the [sliders without animations](humeval_tutorial_handout.pdf).
+Look at the [slides](humeval_tutorial_animated.pdf) or the [slides without animations](humeval_tutorial_handout.pdf).
 
 ## Our own human evaluation campaign
 
